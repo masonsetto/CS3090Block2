@@ -17,7 +17,7 @@ def checkPasswordStrength(password):
     if len(passwordIssues) > 3:
         return "Weak Password :(\n" + "\n".join(passwordIssues)
 
-    if len(passwordIssues) <= 3 & len(passwordIssues) > 1:
+    if len(passwordIssues) <= 3 and len(passwordIssues) > 1:
         return "Ok Password :/\n" + "\n".join(passwordIssues)
 
     if len(passwordIssues) == 1:
@@ -31,5 +31,5 @@ def checkPasswordStrength(password):
 
     return "Strong Password! :)"
 
-password = input("Enter your password: ")
+password = input("Enter your password: ").strip()
 print(checkPasswordStrength(password))
