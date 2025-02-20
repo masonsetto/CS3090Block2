@@ -1,6 +1,7 @@
 This program checks the strength of a user provided password and gives feedback in the form of improvements that could be made to make the password stronger.
 
 In order to run this program, you will need to have Python installed. There are no necessary dependencies.
+You can run this program from the terminal or while using your perferred IDE.
 
 This tool is for educational use only and should not be used with any secure/sensitive information, such as real passwords. 
 
